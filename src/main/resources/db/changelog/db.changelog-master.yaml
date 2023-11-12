@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: v.1.0.0/init_orders.sql
+      relativeToChangeLogFile: true
+  - include:
+      file: v.1.0.0/init_orders_item.sql
+      relativeToChangeLogFile: true
